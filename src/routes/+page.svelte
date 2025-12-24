@@ -20,7 +20,7 @@
 					<Content
 						thumbnail_url="https://i3.ytimg.com/vi/xsQglFTieUc/maxresdefault.jpg"
 						title="Reviviendo tus Cacharritos con Linux"
-						link="/rtccl"
+						link="rtccl"
 					/>
 				</div>
 			</Window>
