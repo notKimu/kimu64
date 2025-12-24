@@ -1,6 +1,7 @@
 <script lang="ts">
+    import { base }			from "$app/paths";
 	// Images
-	import ShortcutImage from "$lib/assets/img/shortcut.ico";
+	import ShortcutImage	from "$lib/assets/img/shortcut.ico";
 
 	type props = {
 		thumbnail_url:	string;
@@ -11,7 +12,7 @@
 	let props: props = $props();
 </script>
 
-<a href={props.link}>
+<a href={`${base}/${props.link}`}>
 	<div class="video-container">
 		<div class="video-container__thumbnail">
 			<img class="video-container__thumbnail__img" src={props.thumbnail_url} alt={`Miniatura del vídeo ${props.title}`}>
