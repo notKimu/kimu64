@@ -1,0 +1,74 @@
+:root {
+	/** COLOR */
+	--color-white:			#FFFFFF;
+	--color-text:			var(--border-width);
+	--color-window-bg:		rgb(204, 203, 203);
+
+	/** SIZE */
+	--padding-xs:			0.25rem;
+	--padding-s:			0.5rem;
+    --padding-m:			1rem;
+    --padding-x:			1.5rem;
+    --padding-xl:			3rem;
+    --padding-main-x:		clamp(1rem, 4vw, 4rem);
+    --padding-main-y:		2rem;
+	--border-width:			.1rem;
+	--border-window-width:	.5rem;
+}
+
+* {
+	box-sizing:		border-box;
+	color:			var(--color-text);
+	margin:			0;
+	padding:		0;
+	font-family:	"Chicago 12";
+}
+
+html,
+body {
+	background-image:		url("./img/halftone-bg.png");
+	background-position:	center;
+	background-size:		cover;
+	/* image-rendering:		crisp-edges; */
+	background-attachment:	fixed;
+}
+
+main {
+	padding:	var(--padding-main-y) var(--padding-main-x);
+}
+
+.borders {
+	box-shadow:	inset -0.1rem -0.1rem #0a0a0a, inset .1rem .1rem #dfdfdf,
+				inset -0.15rem -0.15rem grey, inset .15rem .15rem #fff;
+	padding:	.1rem;
+}
+.borders-inv {
+	box-shadow:	inset -0.1rem -0.1rem #dfdfdf, inset .1rem .1rem #0a0a0a,
+				inset -0.15rem -0.15rem #fff, inset .15rem .15rem grey;
+	padding:	.1rem;
+}
+
+button {
+	background-color:	var(--color-window-bg);
+	box-shadow:			inset -0.1rem -0.1rem #0a0a0a, inset .1rem .1rem #dfdfdf,
+						inset -0.15rem -0.15rem grey, inset .15rem .15rem #fff;
+	border:				1px solid black;
+	border-width:		0 1px 1px 0;
+	padding:			.1rem;
+}
+
+/** FONTS */
+@font-face {
+	font-family:	"Chicago 12";
+	src:			url("./fonts/Chicago-12.ttf");
+}
+
+@font-face {
+	font-family:	"Courier 10";
+	src:			url("./fonts/Courier-10.ttf");
+}
+
+@font-face {
+	font-family:	"Super Mario";
+	src:			url("./fonts/SuperMario256.ttf");
+}
