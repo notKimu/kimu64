@@ -18,7 +18,7 @@
 			<Window title="Videos" app="Word">
 				<div class="main-container__videos__list">
 					<Content
-						thumbnail_url="https://i3.ytimg.com/vi/xsQglFTieUc/maxresdefault.jpg"
+						thumbnail_url="https://i3.ytimg.com/vi/7pCqES0vruY/maxresdefault.jpg"
 						title="Reviviendo tus Cacharritos con Linux"
 						link="rtccl"
 					/>

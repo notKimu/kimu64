@@ -81,7 +81,7 @@
 		align-items:			center;
 		justify-content:		center;
 
-		background-image: 		url("https://i3.ytimg.com/vi/xsQglFTieUc/maxresdefault.jpg");
+		background-image: 		url("https://i3.ytimg.com/vi/7pCqES0vruY/maxresdefault.jpg");
 		background-position:	center;
 		background-size:		cover;
 		background-repeat:		no-repeat;
