@@ -6,6 +6,7 @@
 </script>
 
 <svelte:head>
+	<title>Kimu x64</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
